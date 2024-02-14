@@ -1,0 +1,24 @@
+1. Simulation Setup
+    • Choose one programming language to do the simulation from C/C++, Matlab, Python, and Java.
+    • Implement a simulation of a single-server queue system.
+    • Ensure that both packet inter-arrival times and service times follow a geometric distribution.
+    • The service rate (μ) of the system is fixed at 0.75.
+
+2. Parameter Variation
+    • Conduct simulations for various packet arrival rates (λ). Specifically, 
+    use the following λ values: 0.2, 0.4, 0.5, 0.6, 0.65, 0.7, 0.72, 0.74, and 0.745.
+
+3. Data Collection
+    • For each value of λ, run the simulation for at least 106 time slots.
+    • For each value of λ, keep track of the queue length, compute 
+    the average queue length, and obtain the average queueing delay 
+    by using Little’s law formula.
+
+4. Analysis and Theoretical Comparison
+    • Plot the expected queueing delay against the arrival rate (λ) 
+    based on your simulation results.
+    • Using the formula derived from the single-server queue analysis, 
+    plot the theoretical curve of expected queueing delay as a function 
+    of arrival rate (λ).
+    • Overlay this theoretical curve with your empirical plot to compare 
+    the simulation results with theoretical expectations
